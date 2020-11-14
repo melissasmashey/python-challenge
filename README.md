@@ -10,7 +10,7 @@ PyBank Folder Include:
 
 PyPoll Folder Include:
 
-1) Resources Folder with CSV file
+1)Resources Folder with CSV file
 
 2)analysis Folder with exported text file from python script
 
