@@ -18,6 +18,7 @@ with open(budget_csv) as csv_file:
         Current_Month=(int(row[1]))
         if Month_counter==1:
             Previous_Month=Current_Month
+            Total_Profit_Losses.append(int(row[1]))
         else:    
             Profit_Losses= ((Current_Month)-(Previous_Month))
             Total_Profit_Losses.append(int(row[1]))
